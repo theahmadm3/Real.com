@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+	<style>
+		section{
+			background: gray;
+			color: whitesmoke;
+		}
+		section > div{
+			color: rgb(56, 53, 53);
+		}
+	</style>
+    <title>Properties</title>
+  </head>
+  <body>
+    <header class="flex flex-row justify-between">
+      <div class="logo flex flex-row">
+        <img src="./logo.png" alt="Company Logo" />
+        <h1>Real.com</h1>
+      </div>
+      <h1 class="f3-l f2-m f4">Properties</h1>
+      <nav id="nav-menu">
+        <button id="menu-button">Menu</button>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html#aboutus">About</a></li>
+          <li><a href="./index.html#contactus">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="homeSection w-100 white tc pb5 pt5">
+      <p class="fcc bg-dark-gray white about f3 center pa2 br3">
+        What would you like to do?
+      </p>
+      <p
+        class="flex flex-row justify-between tc w-100 w-50-l w-50-m  bg-dark-gray white about f3 center pa4 br3"
+      >
+        <a href="#buildings1">Buy</a>
+        <a href="#buildings2">Rent</a>
+        <a href="#buildings4">Homes</a>
+      </p>
+    </section>
+    <section class="buildings pa3 w-100" id="buildings1">
+      <h2>Buildings To Buy</h2>
+      <p>from $12,000,000</p>
+      <div
+        id="buy"
+        class="flex bg-light-gray br3 flex-row justify-between items scroll-x pa3 w-100"
+      >
+	  <div class="w-30-l fcc w-70-m w-100 pa2 ma2">
+		<img src="./Buildings/building1.jpg" alt="Property Image" class="w-100 grow-large" />
+		<div class="pa2">
+			<h2>Skylight</h2>
+			<p class="f4 b">$35,000,000</p>
+			<p class="f5">100 offices - 19 floors - 6,000 sq. ft.</p>
+			<p class="f6">456 Elm Street, Metropolisville</p>
+		</div>
+	</div>
+	<div class="w-30-l fcc w-70-m w-100 pa2 ma2">
+		<img src="./Buildings/building3.jpg" alt="Property Image" class="w-100 grow-large" />
+		<div class="pa2">
+			<h2>Nexus Hub</h2>
+			<p class="f4 b">$12,000,000</p>
+			<p class="f5">20 offices - 3 floors - 3,000 sq. ft.</p>
+			<p class="f6">123 Pine Street, Greenvale</p>
+		</div>
+	</div>
+	<div class="w-30-l fcc w-70-m w-100 pa2 ma2">
+		<img src="./Buildings/building4.jpg" alt="Property Image" class="w-100 grow-large" />
+		<div class="pa2">
+			<h2>Parkview</h2>
+			<p class="f4 b">$14,000,000</p>
+			<p class="f5">30 offices - 3 floors - 3,500 sq. ft.</p>
+			<p class="f6">456 Oak Street, Parksville</p>
+		</div>
+	</div>
+	<div class="w-30-l fcc w-70-m w-100 pa2 ma2">
+		<img src="./Buildings/building2.jpg" alt="Property Image" class="w-100 grow-large" />
+		<div class="pa2">
+			<h2>Skyrise</h2>
+			<p class="f4 b">$16,800,000</p>
+			<p class="f5">50 offices - 5 floors - 4,000 sq. ft.</p>
+			<p class="f6">789 Oak Avenue, Metroville</p>
+		</div>
+	</div>
+	<div class="w-30-l fcc w-70-m w-100 pa2 ma2">
+		<img src="./Buildings/building5.jpg" alt="Property Image" class="w-100 grow-large" />
+		<div class="pa2">
+			<h2>Cityscape</h2>
+			<p class="f4 b">$18,700,000</p>
+			<p class="f5">65 offices - 5 floors - 5,000 sq. ft.</p>
+			<p class="f6">789 Maple Avenue, Citysville</p>
+		</div>
+	</div>
+	<div class="w-30-l fcc w-70-m w-100 pa2 ma2">
+		<img src="./Buildings/building6.jpg" alt="Property Image" class="w-100 grow-large" />
+		<div class="pa2">
+			<h2>Greenfield </h2>
+			<p class="f4 b">$20,700,000</p>
+			<p class="f5">65 offices - 5 floors - 5,200 sq. ft.</p>
+			<p class="f6">789 Maple Avenue, Citysville</p>
+		</div>
+	</div>
+	<div class="w-30-l fcc w-70-m w-100 pa2 ma2">
+		<img src="./Buildings/building7.jpg" alt="Property Image" class="w-100 grow-large" />
+		<div class="pa2">
+			<h2>Tech Scape</h2>
+			<p class="f4 b">$22,700,000</p>
+			<p class="f5">74 offices - 6 floors - 5,500 sq. ft.</p>
+			<p class="f6">789 Maple Avenue, Citysville</p>
+		</div>
+	</div>
+      </div>
+    </section>
+    <section class="buildings pa3 w-100" id="buildings4">
+      <h2>Suburban Homes</h2>
+      <p>from $420,000</p>
+      <div
+        id="buy"
+        class="flex bg-light-gray br3 flex-row justify-between items scroll-x pa3 w-100"
+      >
+        <div class="w-30-l fcc w-70-m w-100 pa3 ma2">
+          <img
+            src="./Houses/house3.jpg"
+            alt="Property Image"
+            class="w-100 grow-large"
+          />
+          <div class="pa2">
+            <h2>Family house</h2>
+            <p class="f4 b">$850,000</p>
+            <p class="f5">6 rooms - 2,000 sq. ft.</p>
+            <p class="f6">123 Main Street, City Name</p>
+          </div>
+        </div>
+        <div class="w-30-l fcc w-70-m w-100 pa3 ma2">
+          <img
+            src="./Houses/house5.jpg"
+            alt="Property Image"
+            class="w-100 grow-large"
+          />
+          <div class="pa2">
+            <h2>Family House 2</h2>
+            <p class="f4 b">$750,000</p>
+            <p class="f5">5 rooms - 1,800 sq. ft.</p>
+            <p class="f6">456 Elm Street, City Name</p>
+          </div>
+        </div>
+        <div class="w-30-l fcc w-70-m w-100 pa3 ma2">
+          <img
+            src="./Houses/house1.jpg"
+            alt="Property Image"
+            class="w-100 grow-large"
+          />
+          <div class="pa2">
+            <h2>Modern Villa</h2>
+            <p class="f4 b">$2,500,000</p>
+            <p class="f5">8 rooms - 3,500 sq. ft.</p>
+            <p class="f6">789 Oak Avenue, City Name</p>
+          </div>
+        </div>
+        <div class="w-30-l fcc w-70-m w-100 pa3 ma2">
+          <img
+            src="./Houses/house7.jpg"
+            alt="Property Image"
+            class="w-100 grow-large"
+          />
+          <div class="pa2">
+            <h2>Lakefront Cottage</h2>
+            <p class="f4 b">$550,000</p>
+            <p class="f5">4 rooms - 1,200 sq. ft.</p>
+            <p class="f6">321 Lakeview Road, City Name</p>
+          </div>
+        </div>
+        <div class="w-30-l fcc w-70-m w-100 pa3 ma2">
+          <img
+            src="./Houses/house6.jpg"
+            alt="Property Image"
+            class="w-100 grow-large"
+          />
+          <div class="pa2">
+            <h2>Cozy Bungalow</h2>
+            <p class="f4 b">$420,000</p>
+            <p class="f5">3 rooms - 1,000 sq. ft.</p>
+            <p class="f6">567 Maple Street, City Name</p>
+          </div>
+        </div>
+        <div class="w-30-l fcc w-70-m w-100 pa3 ma2">
+          <img
+            src="./Houses/house2.jpg"
+            alt="Property Image"
+            class="w-100 grow-large"
+          />
+          <div class="pa2">
+            <h2>Mountain Retreat</h2>
+            <p class="f4 b">$950,000</p>
+            <p class="f5">5 rooms - 2,800 sq. ft.</p>
+            <p class="f6">123 Mountain View Lane, City Name</p>
+          </div>
+        </div>
+        <div class="w-30-l fcc w-70-m w-100 pa3 ma2">
+          <img
+            src="./Houses/house4.jpg"
+            alt="Property Image"
+            class="w-100 grow-large"
+          />
+          <div class="pa2">
+            <h2>Luxury Penthouse</h2>
+            <p class="f4 b">$1,500,000</p>
+            <p class="f5">7 rooms - 3,200 sq. ft.</p>
+            <p class="f6">789 Skyscraper Avenue, City Name</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="buildings pa3 w-100" id="buildings2">
+      <h2>Rent an office space</h2>
+      <p>from $1450 per month</p>
+      <div
+        id="buy"
+        class="flex bg-light-gray br3 flex-row justify-between items scroll-x pa3 w-100"
+      >
+        <div class="w-30-l w-100-m fcc w-100 pa3 ma2">
+          <img
+            src="./Offices/office1.jpg"
+            alt="Property Image"
+            class="w-100 grow"
+          />
+          <p class="f4 b">$1,450</p>
+          <p class="f5">200 sq. ft.</p>
+          <p class="f6">123 Main Street, City Name</p>
+        </div>
+        <div class="w-30-l w-100-m fcc w-100 pa3 ma2">
+          <img
+            src="./Offices/office2.jpg"
+            alt="Property Image"
+            class="w-100 grow"
+          />
+          <p class="f4 b">$950</p>
+          <p class="f5">220 sq. ft.</p>
+          <p class="f6">456 Elm Street, City Name</p>
+        </div>
+
+        <div class="w-30-l w-100-m fcc w-100 pa3 ma2">
+          <img
+            src="./Offices/office3.jpg"
+            alt="Property Image"
+            class="w-100 grow"
+          />
+          <p class="f4 b">$1,250</p>
+          <p class="f5">240 sq. ft.</p>
+          <p class="f6">789 Oak Street, City Name</p>
+        </div>
+
+        <div class="w-30-l w-100-m fcc w-100 pa3 ma2">
+          <img
+            src="./Offices/office4.jpg"
+            alt="Property Image"
+            class="w-100 grow"
+          />
+          <p class="f4 b">$1,350</p>
+          <p class="f5">260 sq. ft.</p>
+          <p class="f6">321 Pine Street, City Name</p>
+        </div>
+
+        <div class="w-30-l w-100-m fcc w-100 pa3 ma2">
+          <img
+            src="./Offices/office5.jpg"
+            alt="Property Image"
+            class="w-100 grow"
+          />
+          <p class="f4 b">$850</p>
+          <p class="f5">280 sq. ft.</p>
+          <p class="f6">654 Cedar Street, City Name</p>
+        </div>
+
+        <div class="w-30-l w-100-m fcc w-100 pa3 ma2">
+          <img
+            src="./Offices/office6.jpg"
+            alt="Property Image"
+            class="w-100 grow"
+          />
+          <p class="f4 b">$1,150</p>
+          <p class="f5">300 sq. ft.</p>
+          <p class="f6">987 Birch Street, City Name</p>
+        </div>
+        <div class="w-30-l w-100-m fcc w-100 pa3 ma2">
+          <img
+            src="./Offices/office7.jpg"
+            alt="Property Image"
+            class="w-100 grow"
+          />
+          <p class="f4 b">$1,550</p>
+          <p class="f5">480 sq. ft.</p>
+          <p class="f6">234 Maple Street, City Name</p>
+        </div>
+      </div>
+    </section>
+    <footer class="white w-100 flex flex-row">
+      <div
+        class="bg-gray w-50 pa2 pb4 fl flex flex-column content-center justify-center"
+      >
+        <div class="flex flex-row">
+          <img src="./contactlogos/phone.svg" alt="call logo" />
+          <p class="pa1">
+            <a href="tel:+234123456789"> +234123456789 </a> <br />
+            Mobile
+          </p>
+        </div>
+        <div class="flex flex-row">
+          <img src="./contactlogos/send.svg" alt="email logo" />
+          <p class="pa1">
+            <a href="mailto:smartcoinnovtions@gmail.com">
+              contactus@real.com
+            </a>
+            <br />
+            Email
+          </p>
+        </div>
+        <div class="flex flex-row">
+          <img src="./contactlogos/map.svg" alt="map logo" />
+          <p class="pa1">
+            <a
+              href="https://www.google.com/maps?sca_esv=566982129&rlz=1CDGOYI_enNG1046NG1046&hl=en-GB&output=search&q=Suite+BPG+6,+Old+Banex+Plaza,+Wuse,+Abuja&source=lnms&entry=mc&sa=X&ved=2ahUKEwjEkuWH5rmBAxUyXEEAHRXpBUoQ0pQJegQIDBAB"
+            >
+              123 Street, Town, This City.
+            </a>
+            <br />
+            Location
+          </p>
+        </div>
+      </div>
+      <div class="bg-dark-gray w-50 pa2 pb4 flex flex-column tc tl-l">
+        <h2>Reach out to us:</h2>
+        <p>
+          Have questions, feedback, or just want to say hello? We'd love to hear
+          from you! Our team is ready to assist and make your experience
+          exceptional. Reach out today!
+        </p>
+        <div class="flex flex-row center bg-light-gray pa2">
+          <img src="./contactlogos/instagram.svg" alt="" />
+          <img src="./contactlogos/facebook.svg" alt="" />
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

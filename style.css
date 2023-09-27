@@ -1,0 +1,132 @@
+@media screen and (max-width: 350px) {
+  body {
+    min-width: 362px;
+  }
+}
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  max-width: 40px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+#menu-button {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #menu-button {
+    display: block;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    font-size: larger;
+    background-color: #333;
+    width: 30%;
+    text-align: left;
+    padding: 1%;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+}
+.cu {
+  height: fit-content;
+}
+.fc {
+  min-width: fit-content;
+}
+.bold {
+  font-weight: bold;
+}
+.fcc {
+  max-width: fit-content;
+}
+.gray1 {
+  background-color: #f2f2f2; /* Light Gray 1 */
+}
+
+.gray2 {
+  background-color: #d9d9d9; /* Light Gray 2 */
+}
+
+.gray3 {
+  background-color: #c0c0c0; /* Light Gray 3 */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.homeSection {
+  background-image: url("sectionbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.scroll-x {
+  overflow-x: scroll;
+}
+.about {
+  opacity: 0.8;
+}
+#aboutus {
+  background-image: url("./Houses/house2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#sold {
+  background-image: url("./bgg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contactUs {
+  background-image: url("./bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.items {
+  flex-wrap: nowrap;
+}
+.items > div {
+  flex-shrink: 0;
+  border: 1px solid rgb(221, 211, 211);
+  box-shadow: 2px 5px 5px gray;
+}
+.items > div img {
+    height: 200px; /* Adjust the height to your desired value */
+    width: auto;
+}

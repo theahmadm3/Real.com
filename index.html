@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Homepage</title>
+  </head>
+  <body>
+    <header class="flex flex-row justify-between">
+      <div class="logo flex flex-row">
+        <img src="./logo.png" alt="Company Logo" />
+        <h1>Real.com</h1>
+      </div>
+      <h1>Home</h1>
+      <nav id="nav-menu">
+        <button id="menu-button">Menu</button>
+        <ul>
+          <li><a href="./properties.html">Properties</a></li>
+          <li><a href="#aboutus">About</a></li>
+          <li><a href="#contactus">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="homeSection w-100 white tc pb5 pt5">
+      <h1 class="fcc bg-dark-gray white about center pa2 br3">
+        Discover The Perfect Building
+      </h1>
+      <p class="fcc bg-dark-gray white about f3 center pa2 br3">
+        With the complete source of buildings for sale and rent for you
+      </p>
+    </section>
+    <section class="w-100 flex flex-row" id="aboutus">
+      <div class="w-50 bg-gray white about">
+        <div class="tl">
+          <img src="./logo.png" alt="" class="w-60" />
+        </div>
+        <div class="tc white">
+          <h1>Real.com</h1>
+        </div>
+      </div>
+      <div class="w-50 tl fr flex flex-column bg-dark-gray white about pa1">
+        <div class="flex flex-row">
+          <img src="./office.svg" class="w-10 ma2" />
+          <p>
+            <b> Office Spaces for Success: </b> <br />
+            Real.com offers a wide selection of office buildings for sale and
+            rent in prime city locations. Whether you're expanding your business
+            or just starting, we have the perfect space to fuel your success.
+          </p>
+        </div>
+        <div class="flex flex-row">
+          <img src="./house.svg" class="w-10 ma2" />
+          <p>
+            <b> Suburban Living at Its Best: </b> <br />
+            Explore our range of suburban homes for rent and sale, designed to
+            provide you with the comfort and tranquility of suburban living.
+            Find your dream home in the serene outskirts with Real.com.
+          </p>
+        </div>
+        <div class="flex flex-row">
+          <img src="./real.svg" class="w-10 ma2" />
+          <p>
+            <b> Your Trusted Real Estate Partner: </b> <br />
+            At Real.com, we're more than just a real estate company. We're your
+            trusted partner in property solutions, dedicated to connecting you
+            with the ideal spaces for your business and lifestyle needs.
+            Discover excellence in real estate with us today.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="buildings pa1 w-100" id="sold">
+      <h1 class="fcc bg-black white about center pa2 br3">
+        Recently sold buildings
+      </h1>
+      <div
+        id="buy"
+        class="flex flex-row bg-gray br4 shadow-2 about justify-between items scroll-x pa3 w-100"
+      >
+        <div class="w-30-l fcc w-70-m w-100 pa2 ma2 bg-white shadow-1">
+          <img
+            src="./Houses/house1.jpg"
+            alt="Property Image"
+            class="w-100 grow-large"
+          />
+          <div class="pa2">
+            <h2>Modern Villa</h2>
+            <p class="f4 b">$2,500,000</p>
+            <p class="f5">8 rooms - 3,500 sq. ft.</p>
+            <p class="f6">789 Oak Avenue, City Name</p>
+          </div>
+        </div>
+        <div class="w-30-l fcc w-70-m w-100 pa2 ma2 bg-white shadow-1">
+          <img
+            src="./Buildings/building1.jpg"
+            alt="Property Image"
+            class="w-100 grow-large"
+          />
+          <div class="pa2">
+            <h2>Tech Nexus</h2>
+            <p class="f4 b">$25,000,000</p>
+            <p class="f5">100 offices - 19 floors - 6,000 sq. ft.</p>
+            <p class="f6">123 Main Street, City Name</p>
+          </div>
+        </div>
+        <div class="w-30-l fcc w-70-m w-100 pa2 ma2 bg-white shadow-1">
+          <img
+            src="./Offices/office7.jpg"
+            alt="Property Image"
+            class="w-100 grow"
+          />
+          <h2>Innovation hub</h2>
+          <p class="f4 b">$500,000</p>
+          <p class="f5">480 sq. ft.</p>
+          <p class="f6">234 Maple Street, City Name</p>
+        </div>
+        <div class="w-30-l fcc w-70-m w-100 pa2 ma2 bg-white shadow-1">
+          <img
+            src="./Houses/house4.jpg"
+            alt="Property Image"
+            class="w-100 grow-large"
+          />
+          <div class="pa2">
+            <h2>Luxury Penthouse</h2>
+            <p class="f4 b">$1,500,000</p>
+            <p class="f5">7 rooms - 3,200 sq. ft.</p>
+            <p class="f6">789 Skyscraper Avenue, City Name</p>
+          </div>
+        </div>
+        <div class="w-30-l fcc w-70-m w-100 pa2 ma2 bg-white shadow-1">
+          <img
+            src="./Offices/office4.jpg"
+            alt="Property Image"
+            class="w-100 grow"
+          />
+		  <h2> SmartCo </h2>
+          <p class="f4 b">$1,350</p>
+          <p class="f5">260 sq. ft.</p>
+          <p class="f6">321 Pine Street, City Name</p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="contactUs w-100 flex flex-row bg-black white about"
+      id="contactus"
+    >
+      <div
+        class="w-50 h-100 flex flex-column bg-dark-gray white about self-center pa2"
+      >
+        <h2 class="tc">Contact Us</h2>
+        <input
+          type="text"
+          placeholder="name"
+          class="bn pa1 center w-50-l w-80 ma1 br3"
+        />
+        <input
+          type="text"
+          placeholder="email"
+          class="bn pa1 center w-50-l w-80 ma1 br3"
+        />
+        <textarea
+          placeholder="message"
+          class="bn pa1 w-50-l w-80 center mt1 mr1 ml1 br3 h-25"
+          cols="30"
+          rows="3"
+        ></textarea>
+        <button class="bn grow br3 shadow-1 center pa1 fcc mt3 ml1">
+          Submit
+        </button>
+      </div>
+      <div class="w-50 h-100 flex flex-column bg-black white about">
+        <div class="tc">
+          <img src="./logo.png" alt="" class="w-50-l w-100 w-70-m" />
+          <h1>Real.com</h1>
+        </div>
+      </div>
+    </section>
+    <footer class="white w-100 flex flex-row">
+      <div
+        class="bg-gray w-50 pa2 pb4 fl flex flex-column content-center justify-center"
+      >
+        <div class="flex flex-row">
+          <img src="./contactlogos/phone.svg" alt="call logo" />
+          <p class="pa1">
+            <a href="tel:+234123456789"> +234123456789 </a> <br />
+            Mobile
+          </p>
+        </div>
+        <div class="flex flex-row">
+          <img src="./contactlogos/send.svg" alt="email logo" />
+          <p class="pa1">
+            <a href="mailto:smartcoinnovtions@gmail.com">
+              contactus@real.com
+            </a>
+            <br />
+            Email
+          </p>
+        </div>
+        <div class="flex flex-row">
+          <img src="./contactlogos/map.svg" alt="map logo" />
+          <p class="pa1">
+            <a
+              href="https://www.google.com/maps?sca_esv=566982129&rlz=1CDGOYI_enNG1046NG1046&hl=en-GB&output=search&q=Suite+BPG+6,+Old+Banex+Plaza,+Wuse,+Abuja&source=lnms&entry=mc&sa=X&ved=2ahUKEwjEkuWH5rmBAxUyXEEAHRXpBUoQ0pQJegQIDBAB"
+            >
+              123 Street, Town, This City.
+            </a>
+            <br />
+            Location
+          </p>
+        </div>
+      </div>
+      <div class="bg-dark-gray w-50 pa2 pb4 flex flex-column tc tl-l">
+        <h2>Reach out to us:</h2>
+        <p>
+          Have questions, feedback, or just want to say hello? We'd love to hear
+          from you! Our team is ready to assist and make your experience
+          exceptional. Reach out today!
+        </p>
+        <div class="flex flex-row center bg-light-gray pa2">
+          <img src="./contactlogos/instagram.svg" alt="" />
+          <img src="./contactlogos/facebook.svg" alt="" />
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
