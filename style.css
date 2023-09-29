@@ -59,6 +59,25 @@ nav ul li:last-child {
   nav ul.active {
     display: flex;
   }
+  footer {
+    flex-direction: column !important;
+  }
+  footer > div {
+    width: 100% !important;
+  }
+  .contactUs > .logo-area {
+    display: none !important;
+  }
+  .contactUs > .contact {
+    width: 100% !important;
+    padding: 5%;
+  }
+  section {
+    flex-direction: column !important;
+  }
+  section > div {
+    width: 100% !important;
+  }
 }
 .cu {
   height: fit-content;
@@ -127,6 +146,6 @@ a {
   box-shadow: 2px 5px 5px gray;
 }
 .items > div img {
-    height: 200px; /* Adjust the height to your desired value */
-    width: auto;
+  height: 200px;
+  width: auto;
 }
